@@ -107,6 +107,7 @@
                 $('.menu-btn').removeClass('close-menu');
                 $('.nav-bar').removeClass('show');
                 $('.nav-bar-overlay').removeClass('show');
+                
             });
         };
         menu();
@@ -128,6 +129,9 @@
                         }, 1000, "easeInOutExpo");
                         return false;
                     }
+                }
+                else{
+                    null
                 }
                 return false;
             });
